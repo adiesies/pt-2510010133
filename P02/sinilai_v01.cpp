@@ -53,6 +53,5 @@ int main() {
     cout << "UTS        : " << uts << "\n";
     cout << "UAS        : " << uas << "\n";
     cout << "Semester   : " << semester << "\n";
-
     return 0;
 }
