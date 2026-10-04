@@ -52,6 +52,6 @@ int main() {
     cout << "Mingguan   : " << mingguan << "\n";
     cout << "UTS        : " << uts << "\n";
     cout << "UAS        : " << uas << "\n";
-    cout << "Semester   : " << semester << "\n";
+    
     return 0;
 }

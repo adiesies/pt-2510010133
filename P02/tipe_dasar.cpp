@@ -23,6 +23,6 @@ int main() {
               << ", double " << sizeof(double)
               << ", char " << sizeof(char)
               << ", bool " << sizeof(bool) << "\n";
-              
+           
     return 0;
 }
