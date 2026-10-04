@@ -7,9 +7,10 @@ using namespace std;
 
 int main() {
     int jumlah_mahasiswa = 32;          // bilangan bulat
-    double nilai_uts = "78.5";            // bilangan pecahan
+    double nilai_uts = 78.5;            // bilangan pecahan
     char huruf_mutu = 'B';              // satu karakter, diapit kutip tunggal
     bool lulus = true;                  // benar atau salah
+    cout << boolalpha;
     string nama = "Siti Aminah";   // teks, diapit kutip ganda
 
     cout << "Jumlah mahasiswa : " << jumlah_mahasiswa << "\n";

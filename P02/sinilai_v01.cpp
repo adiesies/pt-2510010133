@@ -20,6 +20,9 @@ int main() {
     double uts;
     double uas;
 
+    // latihan mandiri tambah satu data
+    int semester;
+
     cout << "=== SiNilai v0.1 ===\n";
     cout << "Nama      : ";
     // TODO 3: baca nama. Ingat, nama bisa mengandung spasi.
@@ -38,6 +41,8 @@ int main() {
     cin >> uts;
     cout << "UAS       : ";
     cin >> uas;
+    cout << "Semester  : ";
+    cin >> semester;
 
     cout << "\n--- Kartu Data Mahasiswa ---\n";
     // TODO 6: tampilkan semua data yang tadi dibaca, satu baris per data, rata seperti prompt.
@@ -47,6 +52,7 @@ int main() {
     cout << "Mingguan   : " << mingguan << "\n";
     cout << "UTS        : " << uts << "\n";
     cout << "UAS        : " << uas << "\n";
+    cout << "Semester   : " << semester << "\n";
 
     return 0;
 }
