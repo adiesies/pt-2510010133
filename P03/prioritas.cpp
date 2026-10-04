@@ -19,5 +19,6 @@ int main() {
     hitung *= 2;     // sama dengan hitung = hitung * 2
     hitung++;        // sama dengan hitung = hitung + 1
     cout << "hitung        = " << hitung << "\n";
+    
     return 0;
 }
