@@ -8,11 +8,10 @@ int main() {
     cout << "Nilai akhir: ";
     cin >> nilai_akhir;
 
-    if (nilai_akhir <= 60) 
+    if (nilai_akhir <= 60) {
         cout << "Peringatan: nilai di bawah 60, segera konsultasi.\n";
-    
+    }
 
     cout << "Terima kasih.\n";
-    cout << "halo";
     return 0;
 }

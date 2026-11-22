@@ -15,7 +15,7 @@ int main() {
     bool presensi_cukup = presensi >= 70;
     bool tugas_lengkap = tugas_dikumpulkan == 1;
 
-    if (presensi_cukup || tugas_lengkap) {
+    if (presensi_cukup && tugas_lengkap) {
         cout << "Boleh mengikuti UAS.\n";
     } else if (!presensi_cukup && !tugas_lengkap) {
         cout << "Tidak boleh: presensi kurang dan tugas belum lengkap.\n";

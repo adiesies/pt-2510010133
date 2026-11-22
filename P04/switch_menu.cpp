@@ -16,7 +16,7 @@ int main() {
     switch (pilihan) {
         case 1:
             cout << "Menampilkan kartu nilai...\n";
-           
+            break;
         case 2:
             cout << "Menghitung ulang...\n";
             break;
